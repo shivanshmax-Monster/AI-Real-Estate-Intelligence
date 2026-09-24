@@ -115,9 +115,3 @@ You can run the application either as a full interactive web dashboard or in fas
 │   ├── ui_model_benchmarks.png
 │   └── ui_bi_hierarchy.png
 ```
-
----
-
-## 👥 8. Author & Internship Submission Details
-* **Program**: IBM SkillsBuild / BharatCares Data Analytics with AI Internship
-* **Submission Format**: 4 Individual Deliverable Files (`app.py`, `requirements.txt`, `README.md`, `Project_Report.docx`) + GitHub Repository URL
