@@ -83,35 +83,20 @@ cd REVI-AI-Real-Estate-Intelligence
 pip install -r requirements.txt
 ```
 
-### Step 3: Run the Application
-You can run the application either as a full interactive web dashboard or in fast headless CLI mode:
-
-* **Interactive Web Dashboard (Recommended)**:
-  ```bash
-  streamlit run app.py
-  ```
-  *(Opens automatically in your browser at `http://localhost:8501`)*
-
-* **Headless Terminal Mode**:
-  ```bash
-  python app.py --cli
-  ```
+### Step 3: Run the Project
+Open and run the project notebook:
+```bash
+jupyter notebook Shivansh_RealEstateValuation.ipynb
+```
 
 ---
 
 ## 📁 7. Repository Structure
 
 ```text
-├── app.py                   # Unified Single Code File (Backend + ML + Frontend UI)
-├── requirements.txt         # Project dependencies & versions
-├── README.md                # Project documentation and Kaggle dataset link
-├── Project_Report.docx      # Comprehensive Project Report (with embedded UI screenshots)
-├── housing_data.csv         # Cleaned real estate transaction dataset
-├── generate_charts.py       # Visual asset & UI chart generator
-├── assets/                  # High-resolution screenshots of UI & model metrics
-│   ├── ui_kpi_distribution.png
-│   ├── ui_eda_sqft_price.png
-│   ├── ui_correlation_matrix.png
-│   ├── ui_model_benchmarks.png
-│   └── ui_bi_hierarchy.png
+├── Shivansh_RealEstateValuation.ipynb   # Complete End-to-End Project Code File (.ipynb)
+├── requirements.txt                    # Project dependencies & versions
+├── Shivansh_ProjectReport.docx         # Comprehensive Project Documentation Report
+├── README.md                           # Project overview, Kaggle dataset link & instructions
+├── housing_data.csv                    # Curated real estate transaction dataset
 ```
